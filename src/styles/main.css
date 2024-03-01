@@ -1,3 +1,7 @@
+body {
+  cursor: url("../assets/cursor/yugicursor.png");
+}
+
 .bg-video {
   width: 100vw;
   height: 100vh;
@@ -48,7 +52,7 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -68,7 +72,7 @@
 
 .cardDecription {
   width: 100%;
-  height: 5rem;
+
   padding: 30px;
 
   background-color: #fff;
@@ -77,6 +81,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .divider {
@@ -102,6 +107,7 @@
 
 .cardVersus {
   width: 100%;
+  height: 270px;
 
   display: flex;
   flex-direction: column;
@@ -126,9 +132,34 @@
   align-items: center;
 }
 
+.cardBox > button {
+  cursor: url("../assets/cursor/yamiyugicursorGLOW.png");
+}
+
 .card-infield {
+  min-width: 125px;
+  min-height: 180px;
+  width: 100%;
+  height: 100%;
+
   border: 3px dashed #fff;
   border-radius: 8px;
+}
+
+.menuAvatar {
+  min-width: 170px;
+  min-height: 230px;
+
+  border: 3px dashed #fff;
+  border-radius: 8px;
+}
+
+.card {
+  transition: 0.2;
+}
+
+.card:hover {
+  transform: scale(1.2);
 }
 
 #cardName {
