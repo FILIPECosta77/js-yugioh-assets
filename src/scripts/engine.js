@@ -33,7 +33,7 @@ const cardsPath = "./src/assets/icons/";
 const cardsData = [
   {
     id: 0,
-    name: "Dragão Branco Dos Zoi Azul",
+    name: "Dragão Branco Dos olhos azuis",
     type: "papel",
     img: `${cardsPath}dragon.png`,
     winOf: [1],
@@ -41,7 +41,7 @@ const cardsData = [
   },
   {
     id: 1,
-    name: "Mago Afro-dessendente",
+    name: "Mago Negro",
     type: "pedra",
     img: `${cardsPath}magician.png`,
     winOf: [2],
